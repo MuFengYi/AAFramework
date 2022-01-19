@@ -22,7 +22,7 @@ pod 'AAFramework'
 
 ## Author
 
-11486628, 177777777@qq.com
+MuFengYi, 774721759@qq.com
 
 ## License
 
