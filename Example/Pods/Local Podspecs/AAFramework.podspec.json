@@ -1,0 +1,44 @@
+{
+  "name": "AAFramework",
+  "version": "0.1.0",
+  "summary": "A short description of AAFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/11486628/AAFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "11486628": "177777777@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/11486628/AAFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AAFramework/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "MediaPlayer",
+    "CoreAudio",
+    "AudioToolbox",
+    "Accelerate",
+    "QuartzCore",
+    "OpenGLES",
+    "AVFoundation",
+    "CoreVideo",
+    "AVKit",
+    "CoreMedia",
+    "VideoToolbox",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "c++",
+    "z",
+    "bz2"
+  ],
+  "vendored_frameworks": "AAFramework/IJKMediaFramework.xcframework"
+}

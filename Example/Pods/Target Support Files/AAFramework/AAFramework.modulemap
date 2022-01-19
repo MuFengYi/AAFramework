@@ -1,0 +1,6 @@
+framework module AAFramework {
+  umbrella header "AAFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

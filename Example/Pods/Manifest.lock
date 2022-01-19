@@ -1,0 +1,16 @@
+PODS:
+  - AAFramework (0.1.0)
+
+DEPENDENCIES:
+  - AAFramework (from `../`)
+
+EXTERNAL SOURCES:
+  AAFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AAFramework: 8297efa01931c7933d8473ca3ef581c93c65f544
+
+PODFILE CHECKSUM: 948fc6d57cb429b6dd073fb39f53a58b133c6a90
+
+COCOAPODS: 1.11.2

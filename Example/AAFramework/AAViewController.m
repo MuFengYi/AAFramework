@@ -8,7 +8,13 @@
 
 #import "AAViewController.h"
 
+#import "PlayView.h"
+
+
+
+
 @interface AAViewController ()
+@property (weak, nonatomic) IBOutlet PlayView *playView;
 
 @end
 
@@ -18,6 +24,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.playView play:@"rtmp://ns8.indexforce.com/home/mystream"];
+    [self.playView prepareToPlay];
 }
 
 - (void)didReceiveMemoryWarning
