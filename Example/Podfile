@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AAFramework_Example' do
+  pod 'AAFramework', :path => '../'
+
+  target 'AAFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
